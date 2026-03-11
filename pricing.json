@@ -4,195 +4,410 @@
     "provider": "OpenAI",
     "description": "OpenAI GPT-5.2 Pro",
     "match_pattern": "(?i)gpt-5\\.2-pro",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000021, "output": 0.000168 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2.1e-05,
+          "output": 0.000168
+        }
+      }
+    ]
   },
   {
     "name": "GPT-5.2",
     "provider": "OpenAI",
     "description": "OpenAI GPT-5.2",
-    "match_pattern": "(?i)gpt-5\\.2(?!-)",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000175, "output": 0.000014 } }]
+    "match_pattern": "(?i)gpt-5\\.2$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.75e-06,
+          "output": 1.4e-05
+        }
+      }
+    ]
   },
   {
     "name": "GPT-5.1",
     "provider": "OpenAI",
     "description": "OpenAI GPT-5.1",
     "match_pattern": "(?i)gpt-5\\.1",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000125, "output": 0.000010 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.25e-06,
+          "output": 1e-05
+        }
+      }
+    ]
   },
   {
     "name": "GPT-5 Pro",
     "provider": "OpenAI",
     "description": "OpenAI GPT-5 Pro",
     "match_pattern": "(?i)gpt-5-pro",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000015, "output": 0.000120 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.5e-05,
+          "output": 0.00012
+        }
+      }
+    ]
   },
   {
     "name": "GPT-5 Mini",
     "provider": "OpenAI",
     "description": "OpenAI GPT-5 Mini",
     "match_pattern": "(?i)gpt-5-mini",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000025, "output": 0.000002 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2.5e-07,
+          "output": 2e-06
+        }
+      }
+    ]
   },
   {
     "name": "GPT-5 Nano",
     "provider": "OpenAI",
     "description": "OpenAI GPT-5 Nano",
     "match_pattern": "(?i)gpt-5-nano",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000005, "output": 0.0000004 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 5e-08,
+          "output": 4e-07
+        }
+      }
+    ]
   },
   {
     "name": "GPT-5",
     "provider": "OpenAI",
     "description": "OpenAI GPT-5",
-    "match_pattern": "(?i)gpt-5(?![-.])",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000125, "output": 0.000010 } }]
+    "match_pattern": "(?i)gpt-5$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.25e-06,
+          "output": 1e-05
+        }
+      }
+    ]
   },
   {
     "name": "GPT-4.1 Mini",
     "provider": "OpenAI",
     "description": "OpenAI GPT-4.1 Mini",
     "match_pattern": "(?i)gpt-4\\.1-mini",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000004, "output": 0.0000016 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 4e-07,
+          "output": 1.6e-06
+        }
+      }
+    ]
   },
   {
     "name": "GPT-4.1",
     "provider": "OpenAI",
     "description": "OpenAI GPT-4.1",
-    "match_pattern": "(?i)gpt-4\\.1(?!-)",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000002, "output": 0.000008 } }]
+    "match_pattern": "(?i)gpt-4\\.1$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2e-06,
+          "output": 8e-06
+        }
+      }
+    ]
   },
   {
     "name": "GPT-4o Mini",
     "provider": "OpenAI",
     "description": "OpenAI GPT-4o Mini",
     "match_pattern": "(?i)gpt-4o-mini",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000015, "output": 0.0000006 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.5e-07,
+          "output": 6e-07
+        }
+      }
+    ]
   },
   {
     "name": "GPT-4o",
     "provider": "OpenAI",
     "description": "OpenAI GPT-4o",
-    "match_pattern": "(?i)gpt-4o(?!-)",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000025, "output": 0.000010 } }]
+    "match_pattern": "(?i)gpt-4o(?:-\\d{4}[-\\d]*)?$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2.5e-06,
+          "output": 1e-05
+        }
+      }
+    ]
   },
   {
     "name": "o1 Pro",
     "provider": "OpenAI",
     "description": "OpenAI o1 Pro",
     "match_pattern": "(?i)o1-pro",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000150, "output": 0.000600 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 0.00015,
+          "output": 0.0006
+        }
+      }
+    ]
   },
   {
     "name": "o1",
     "provider": "OpenAI",
     "description": "OpenAI o1",
-    "match_pattern": "(?i)(?:^|/)o1(?![-.])",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000015, "output": 0.000060 } }]
+    "match_pattern": "(?i)(?:^|[-/])o1(?:$|[-/])",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.5e-05,
+          "output": 6e-05
+        }
+      }
+    ]
   },
   {
     "name": "o3 Pro",
     "provider": "OpenAI",
     "description": "OpenAI o3 Pro",
     "match_pattern": "(?i)o3-pro",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000020, "output": 0.000080 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2e-05,
+          "output": 8e-05
+        }
+      }
+    ]
   },
   {
     "name": "o3 Mini",
     "provider": "OpenAI",
     "description": "OpenAI o3 Mini",
     "match_pattern": "(?i)o3-mini",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000011, "output": 0.0000044 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.1e-06,
+          "output": 4.4e-06
+        }
+      }
+    ]
   },
   {
     "name": "o3",
     "provider": "OpenAI",
     "description": "OpenAI o3",
-    "match_pattern": "(?i)(?:^|/)o3(?![-.])",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000002, "output": 0.000008 } }]
+    "match_pattern": "(?i)(?:^|[-/])o3(?:$|[-/])",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2e-06,
+          "output": 8e-06
+        }
+      }
+    ]
   },
   {
     "name": "o4 Mini",
     "provider": "OpenAI",
     "description": "OpenAI o4 Mini",
     "match_pattern": "(?i)o4-mini",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000011, "output": 0.0000044 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.1e-06,
+          "output": 4.4e-06
+        }
+      }
+    ]
   },
   {
     "name": "GPT-4 Turbo",
     "provider": "OpenAI",
     "description": "OpenAI GPT-4 Turbo",
     "match_pattern": "(?i)gpt-4-turbo",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000010, "output": 0.000030 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1e-05,
+          "output": 3e-05
+        }
+      }
+    ]
   },
   {
     "name": "GPT-4 32k",
     "provider": "OpenAI",
     "description": "OpenAI GPT-4 32k",
     "match_pattern": "(?i)gpt-4-32k",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000060, "output": 0.000120 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 6e-05,
+          "output": 0.00012
+        }
+      }
+    ]
   },
   {
     "name": "GPT-4",
     "provider": "OpenAI",
     "description": "OpenAI GPT-4",
-    "match_pattern": "(?i)gpt-4(?![-o.])",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000030, "output": 0.000060 } }]
+    "match_pattern": "(?i)gpt-4(?:-0314|-0613|-0314)?$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-05,
+          "output": 6e-05
+        }
+      }
+    ]
   },
   {
     "name": "GPT-3.5 Turbo",
     "provider": "OpenAI",
     "description": "OpenAI GPT-3.5 Turbo",
     "match_pattern": "(?i)gpt-3\\.5",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000005, "output": 0.0000015 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 5e-07,
+          "output": 1.5e-06
+        }
+      }
+    ]
   },
   {
     "name": "text-embedding-3-large",
     "provider": "OpenAI",
     "description": "OpenAI text embedding large",
     "match_pattern": "(?i)text-embedding-3-large",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000013 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.3e-07
+        }
+      }
+    ]
   },
   {
     "name": "text-embedding-3-small",
     "provider": "OpenAI",
     "description": "OpenAI text embedding small",
     "match_pattern": "(?i)text-embedding-3-small",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000002 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2e-08
+        }
+      }
+    ]
   },
   {
     "name": "text-embedding-ada-002",
     "provider": "OpenAI",
     "description": "OpenAI Ada embedding",
     "match_pattern": "(?i)text-embedding-ada-002",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000001 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1e-07
+        }
+      }
+    ]
   },
   {
     "name": "Claude Opus 4.6",
     "provider": "Anthropic",
-    "description": "Anthropic Claude Opus 4.6 — extended context pricing at 200k+ input tokens",
+    "description": "Anthropic Claude Opus 4.6 \u2014 extended context pricing at 200k+ input tokens",
     "match_pattern": "(?i)claude-opus-4-6",
     "tiers": [
       {
         "name": "Extended Context (200k+)",
-        "condition": { "usage_key": "input", "operator": "gte", "value": 200000 },
-        "prices": { "input": 0.000010, "output": 0.0000375 }
+        "condition": {
+          "usage_key": "input",
+          "operator": "gte",
+          "value": 200000
+        },
+        "prices": {
+          "input": 1e-05,
+          "output": 3.75e-05
+        }
       },
-      { "name": "Default", "prices": { "input": 0.000005, "output": 0.000025 } }
+      {
+        "name": "Default",
+        "prices": {
+          "input": 5e-06,
+          "output": 2.5e-05
+        }
+      }
     ]
   },
   {
     "name": "Claude Sonnet 4.6",
     "provider": "Anthropic",
-    "description": "Anthropic Claude Sonnet 4.6 — extended context pricing at 200k+ input tokens",
+    "description": "Anthropic Claude Sonnet 4.6 \u2014 extended context pricing at 200k+ input tokens",
     "match_pattern": "(?i)claude-sonnet-4-6",
     "tiers": [
       {
         "name": "Extended Context (200k+)",
-        "condition": { "usage_key": "input", "operator": "gte", "value": 200000 },
-        "prices": { "input": 0.000006, "output": 0.0000225 }
+        "condition": {
+          "usage_key": "input",
+          "operator": "gte",
+          "value": 200000
+        },
+        "prices": {
+          "input": 6e-06,
+          "output": 2.25e-05
+        }
       },
-      { "name": "Default", "prices": { "input": 0.000003, "output": 0.000015 } }
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-06,
+          "output": 1.5e-05
+        }
+      }
     ]
   },
   {
@@ -203,24 +418,50 @@
     "tiers": [
       {
         "name": "Extended Context (200k+)",
-        "condition": { "usage_key": "input", "operator": "gte", "value": 200000 },
-        "prices": { "input": 0.000006, "output": 0.0000225 }
+        "condition": {
+          "usage_key": "input",
+          "operator": "gte",
+          "value": 200000
+        },
+        "prices": {
+          "input": 6e-06,
+          "output": 2.25e-05
+        }
       },
-      { "name": "Default", "prices": { "input": 0.000003, "output": 0.000015 } }
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-06,
+          "output": 1.5e-05
+        }
+      }
     ]
   },
   {
     "name": "Claude Sonnet 4",
     "provider": "Anthropic",
     "description": "Anthropic Claude Sonnet 4",
-    "match_pattern": "(?i)claude-sonnet-4(?![.-])",
+    "match_pattern": "(?i)claude-sonnet-4$",
     "tiers": [
       {
         "name": "Extended Context (200k+)",
-        "condition": { "usage_key": "input", "operator": "gte", "value": 200000 },
-        "prices": { "input": 0.000006, "output": 0.0000225 }
+        "condition": {
+          "usage_key": "input",
+          "operator": "gte",
+          "value": 200000
+        },
+        "prices": {
+          "input": 6e-06,
+          "output": 2.25e-05
+        }
       },
-      { "name": "Default", "prices": { "input": 0.000003, "output": 0.000015 } }
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-06,
+          "output": 1.5e-05
+        }
+      }
     ]
   },
   {
@@ -228,76 +469,161 @@
     "provider": "Anthropic",
     "description": "Anthropic Claude Opus 4.5",
     "match_pattern": "(?i)claude-opus-4-5",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000005, "output": 0.000025 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 5e-06,
+          "output": 2.5e-05
+        }
+      }
+    ]
   },
   {
     "name": "Claude Haiku 4.5",
     "provider": "Anthropic",
     "description": "Anthropic Claude Haiku 4.5",
     "match_pattern": "(?i)claude-haiku-4-5",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000001, "output": 0.000005 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1e-06,
+          "output": 5e-06
+        }
+      }
+    ]
   },
   {
     "name": "Claude Opus 4",
     "provider": "Anthropic",
     "description": "Anthropic Claude Opus 4",
-    "match_pattern": "(?i)claude-opus-4(?![-.])",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000015, "output": 0.000075 } }]
+    "match_pattern": "(?i)claude-opus-4$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.5e-05,
+          "output": 7.5e-05
+        }
+      }
+    ]
   },
   {
     "name": "Claude 3 Opus",
     "provider": "Anthropic",
     "description": "Anthropic Claude 3 Opus",
     "match_pattern": "(?i)claude-3-opus",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000015, "output": 0.000075 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.5e-05,
+          "output": 7.5e-05
+        }
+      }
+    ]
   },
   {
     "name": "Claude 3.7 Sonnet",
     "provider": "Anthropic",
     "description": "Anthropic Claude 3.7 Sonnet",
     "match_pattern": "(?i)claude-3-7-sonnet",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000003, "output": 0.000015 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-06,
+          "output": 1.5e-05
+        }
+      }
+    ]
   },
   {
     "name": "Claude 3.5 Sonnet",
     "provider": "Anthropic",
     "description": "Anthropic Claude 3.5 Sonnet",
     "match_pattern": "(?i)claude-3-5-sonnet",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000003, "output": 0.000015 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-06,
+          "output": 1.5e-05
+        }
+      }
+    ]
   },
   {
     "name": "Claude 3 Sonnet",
     "provider": "Anthropic",
     "description": "Anthropic Claude 3 Sonnet",
-    "match_pattern": "(?i)claude-3-sonnet(?![-.])",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000003, "output": 0.000015 } }]
+    "match_pattern": "(?i)claude-3-sonnet$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-06,
+          "output": 1.5e-05
+        }
+      }
+    ]
   },
   {
     "name": "Claude 3.5 Haiku",
     "provider": "Anthropic",
     "description": "Anthropic Claude 3.5 Haiku",
     "match_pattern": "(?i)claude-(?:haiku-3-5|3-5-haiku)",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000008, "output": 0.000004 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 8e-07,
+          "output": 4e-06
+        }
+      }
+    ]
   },
   {
     "name": "Claude 3 Haiku",
     "provider": "Anthropic",
     "description": "Anthropic Claude 3 Haiku",
     "match_pattern": "(?i)claude-3-haiku",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000025, "output": 0.00000125 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2.5e-07,
+          "output": 1.25e-06
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 3.1 Pro",
     "provider": "Google",
-    "description": "Google Gemini 3.1 Pro — extended context pricing at 200k+ input tokens",
+    "description": "Google Gemini 3.1 Pro \u2014 extended context pricing at 200k+ input tokens",
     "match_pattern": "(?i)gemini-3\\.1-pro",
     "tiers": [
       {
         "name": "Extended Context (200k+)",
-        "condition": { "usage_key": "input", "operator": "gte", "value": 200000 },
-        "prices": { "input": 0.000004, "output": 0.000018 }
+        "condition": {
+          "usage_key": "input",
+          "operator": "gte",
+          "value": 200000
+        },
+        "prices": {
+          "input": 4e-06,
+          "output": 1.8e-05
+        }
       },
-      { "name": "Default", "prices": { "input": 0.000002, "output": 0.000012 } }
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2e-06,
+          "output": 1.2e-05
+        }
+      }
     ]
   },
   {
@@ -305,27 +631,56 @@
     "provider": "Google",
     "description": "Google Gemini 3.1 Flash Lite",
     "match_pattern": "(?i)gemini-3\\.1-flash-lite",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000025, "output": 0.0000015 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 2.5e-07,
+          "output": 1.5e-06
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 3 Flash",
     "provider": "Google",
     "description": "Google Gemini 3 Flash",
     "match_pattern": "(?i)gemini-3-flash",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000005, "output": 0.000003 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 5e-07,
+          "output": 3e-06
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 2.5 Pro",
     "provider": "Google",
-    "description": "Google Gemini 2.5 Pro — extended context pricing at 200k+ input tokens",
+    "description": "Google Gemini 2.5 Pro \u2014 extended context pricing at 200k+ input tokens",
     "match_pattern": "(?i)gemini-2\\.5-pro",
     "tiers": [
       {
         "name": "Extended Context (200k+)",
-        "condition": { "usage_key": "input", "operator": "gte", "value": 200000 },
-        "prices": { "input": 0.0000025, "output": 0.000015 }
+        "condition": {
+          "usage_key": "input",
+          "operator": "gte",
+          "value": 200000
+        },
+        "prices": {
+          "input": 2.5e-06,
+          "output": 1.5e-05
+        }
       },
-      { "name": "Default", "prices": { "input": 0.00000125, "output": 0.000010 } }
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.25e-06,
+          "output": 1e-05
+        }
+      }
     ]
   },
   {
@@ -333,55 +688,118 @@
     "provider": "Google",
     "description": "Google Gemini 2.5 Flash Lite",
     "match_pattern": "(?i)gemini-2\\.5-flash-lite",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000001, "output": 0.0000004 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1e-07,
+          "output": 4e-07
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 2.5 Flash",
     "provider": "Google",
     "description": "Google Gemini 2.5 Flash",
-    "match_pattern": "(?i)gemini-2\\.5-flash(?!-)",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000003, "output": 0.0000025 } }]
+    "match_pattern": "(?i)gemini-2\\.5-flash$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 3e-07,
+          "output": 2.5e-06
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 2.0 Flash Lite",
     "provider": "Google",
     "description": "Google Gemini 2.0 Flash Lite",
     "match_pattern": "(?i)gemini-2\\.0-flash-lite",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000000075, "output": 0.0000003 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 7.5e-08,
+          "output": 3e-07
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 2.0 Flash",
     "provider": "Google",
     "description": "Google Gemini 2.0 Flash",
-    "match_pattern": "(?i)gemini-2\\.0-flash(?!-)",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000001, "output": 0.0000004 } }]
+    "match_pattern": "(?i)gemini-2\\.0-flash$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1e-07,
+          "output": 4e-07
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 1.5 Pro",
     "provider": "Google",
     "description": "Google Gemini 1.5 Pro",
     "match_pattern": "(?i)gemini-1\\.5-pro",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000125, "output": 0.000005 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.25e-06,
+          "output": 5e-06
+        }
+      }
+    ]
   },
   {
     "name": "Gemini 1.5 Flash",
     "provider": "Google",
     "description": "Google Gemini 1.5 Flash",
     "match_pattern": "(?i)gemini-1\\.5-flash",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.000000075, "output": 0.0000003 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 7.5e-08,
+          "output": 3e-07
+        }
+      }
+    ]
   },
   {
     "name": "Gemini Pro",
     "provider": "Google",
     "description": "Google Gemini Pro",
-    "match_pattern": "(?i)gemini-pro(?![-.])",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.0000005, "output": 0.0000015 } }]
+    "match_pattern": "(?i)gemini-pro$",
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 5e-07,
+          "output": 1.5e-06
+        }
+      }
+    ]
   },
   {
     "name": "Gemini Embedding",
     "provider": "Google",
     "description": "Google Gemini Embedding",
     "match_pattern": "(?i)gemini-embedding",
-    "tiers": [{ "name": "Default", "prices": { "input": 0.00000015 } }]
+    "tiers": [
+      {
+        "name": "Default",
+        "prices": {
+          "input": 1.5e-07
+        }
+      }
+    ]
   }
 ]
