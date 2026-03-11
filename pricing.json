@@ -69,7 +69,8 @@
         "name": "Default",
         "prices": {
           "input": 2.5e-07,
-          "output": 2e-06
+          "output": 2e-06,
+          "cache_read_input_tokens": 1.25e-07
         }
       }
     ]
@@ -99,7 +100,8 @@
         "name": "Default",
         "prices": {
           "input": 1.25e-06,
-          "output": 1e-05
+          "output": 1e-05,
+          "cache_read_input_tokens": 6.25e-07
         }
       }
     ]
@@ -114,7 +116,8 @@
         "name": "Default",
         "prices": {
           "input": 4e-07,
-          "output": 1.6e-06
+          "output": 1.6e-06,
+          "cache_read_input_tokens": 2e-07
         }
       }
     ]
@@ -129,7 +132,8 @@
         "name": "Default",
         "prices": {
           "input": 2e-06,
-          "output": 8e-06
+          "output": 8e-06,
+          "cache_read_input_tokens": 1e-06
         }
       }
     ]
@@ -144,7 +148,8 @@
         "name": "Default",
         "prices": {
           "input": 1.5e-07,
-          "output": 6e-07
+          "output": 6e-07,
+          "cache_read_input_tokens": 7.5e-08
         }
       }
     ]
@@ -159,7 +164,8 @@
         "name": "Default",
         "prices": {
           "input": 2.5e-06,
-          "output": 1e-05
+          "output": 1e-05,
+          "cache_read_input_tokens": 1.25e-06
         }
       }
     ]
@@ -174,7 +180,8 @@
         "name": "Default",
         "prices": {
           "input": 0.00015,
-          "output": 0.0006
+          "output": 0.0006,
+          "cache_read_input_tokens": 7.5e-05
         }
       }
     ]
@@ -189,7 +196,8 @@
         "name": "Default",
         "prices": {
           "input": 1.5e-05,
-          "output": 6e-05
+          "output": 6e-05,
+          "cache_read_input_tokens": 7.5e-06
         }
       }
     ]
@@ -204,7 +212,8 @@
         "name": "Default",
         "prices": {
           "input": 2e-05,
-          "output": 8e-05
+          "output": 8e-05,
+          "cache_read_input_tokens": 1e-05
         }
       }
     ]
@@ -219,7 +228,8 @@
         "name": "Default",
         "prices": {
           "input": 1.1e-06,
-          "output": 4.4e-06
+          "output": 4.4e-06,
+          "cache_read_input_tokens": 5.5e-07
         }
       }
     ]
@@ -234,7 +244,8 @@
         "name": "Default",
         "prices": {
           "input": 2e-06,
-          "output": 8e-06
+          "output": 8e-06,
+          "cache_read_input_tokens": 1e-06
         }
       }
     ]
@@ -249,7 +260,8 @@
         "name": "Default",
         "prices": {
           "input": 1.1e-06,
-          "output": 4.4e-06
+          "output": 4.4e-06,
+          "cache_read_input_tokens": 5.5e-07
         }
       }
     ]
@@ -371,14 +383,18 @@
         },
         "prices": {
           "input": 1e-05,
-          "output": 3.75e-05
+          "output": 3.75e-05,
+          "cache_read_input_tokens": 1e-06,
+          "cache_creation_input_tokens": 1.25e-05
         }
       },
       {
         "name": "Default",
         "prices": {
           "input": 5e-06,
-          "output": 2.5e-05
+          "output": 2.5e-05,
+          "cache_read_input_tokens": 5e-07,
+          "cache_creation_input_tokens": 6.25e-06
         }
       }
     ]
@@ -398,14 +414,18 @@
         },
         "prices": {
           "input": 6e-06,
-          "output": 2.25e-05
+          "output": 2.25e-05,
+          "cache_read_input_tokens": 6e-07,
+          "cache_creation_input_tokens": 7.5e-06
         }
       },
       {
         "name": "Default",
         "prices": {
           "input": 3e-06,
-          "output": 1.5e-05
+          "output": 1.5e-05,
+          "cache_read_input_tokens": 3e-07,
+          "cache_creation_input_tokens": 3.75e-06
         }
       }
     ]
@@ -425,14 +445,18 @@
         },
         "prices": {
           "input": 6e-06,
-          "output": 2.25e-05
+          "output": 2.25e-05,
+          "cache_read_input_tokens": 6e-07,
+          "cache_creation_input_tokens": 7.5e-06
         }
       },
       {
         "name": "Default",
         "prices": {
           "input": 3e-06,
-          "output": 1.5e-05
+          "output": 1.5e-05,
+          "cache_read_input_tokens": 3e-07,
+          "cache_creation_input_tokens": 3.75e-06
         }
       }
     ]
@@ -452,14 +476,18 @@
         },
         "prices": {
           "input": 6e-06,
-          "output": 2.25e-05
+          "output": 2.25e-05,
+          "cache_read_input_tokens": 6e-07,
+          "cache_creation_input_tokens": 7.5e-06
         }
       },
       {
         "name": "Default",
         "prices": {
           "input": 3e-06,
-          "output": 1.5e-05
+          "output": 1.5e-05,
+          "cache_read_input_tokens": 3e-07,
+          "cache_creation_input_tokens": 3.75e-06
         }
       }
     ]
@@ -474,7 +502,9 @@
         "name": "Default",
         "prices": {
           "input": 5e-06,
-          "output": 2.5e-05
+          "output": 2.5e-05,
+          "cache_read_input_tokens": 5e-07,
+          "cache_creation_input_tokens": 6.25e-06
         }
       }
     ]
@@ -489,7 +519,9 @@
         "name": "Default",
         "prices": {
           "input": 1e-06,
-          "output": 5e-06
+          "output": 5e-06,
+          "cache_read_input_tokens": 1e-07,
+          "cache_creation_input_tokens": 1.25e-06
         }
       }
     ]
@@ -504,7 +536,9 @@
         "name": "Default",
         "prices": {
           "input": 1.5e-05,
-          "output": 7.5e-05
+          "output": 7.5e-05,
+          "cache_read_input_tokens": 1.5e-06,
+          "cache_creation_input_tokens": 1.875e-05
         }
       }
     ]
@@ -519,7 +553,9 @@
         "name": "Default",
         "prices": {
           "input": 1.5e-05,
-          "output": 7.5e-05
+          "output": 7.5e-05,
+          "cache_read_input_tokens": 1.5e-06,
+          "cache_creation_input_tokens": 1.875e-05
         }
       }
     ]
@@ -534,7 +570,9 @@
         "name": "Default",
         "prices": {
           "input": 3e-06,
-          "output": 1.5e-05
+          "output": 1.5e-05,
+          "cache_read_input_tokens": 3e-07,
+          "cache_creation_input_tokens": 3.75e-06
         }
       }
     ]
@@ -549,7 +587,9 @@
         "name": "Default",
         "prices": {
           "input": 3e-06,
-          "output": 1.5e-05
+          "output": 1.5e-05,
+          "cache_read_input_tokens": 3e-07,
+          "cache_creation_input_tokens": 3.75e-06
         }
       }
     ]
@@ -564,7 +604,9 @@
         "name": "Default",
         "prices": {
           "input": 3e-06,
-          "output": 1.5e-05
+          "output": 1.5e-05,
+          "cache_read_input_tokens": 3e-07,
+          "cache_creation_input_tokens": 3.75e-06
         }
       }
     ]
@@ -579,7 +621,9 @@
         "name": "Default",
         "prices": {
           "input": 8e-07,
-          "output": 4e-06
+          "output": 4e-06,
+          "cache_read_input_tokens": 8e-08,
+          "cache_creation_input_tokens": 1e-06
         }
       }
     ]
@@ -594,7 +638,9 @@
         "name": "Default",
         "prices": {
           "input": 2.5e-07,
-          "output": 1.25e-06
+          "output": 1.25e-06,
+          "cache_read_input_tokens": 2.5e-08,
+          "cache_creation_input_tokens": 3.125e-07
         }
       }
     ]
